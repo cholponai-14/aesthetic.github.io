@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+ h1{
+     margin-left: 10%;
+     font-family:serif;
+     color:coral;
+    
+ }
+ 
+    
+main{
+    margin-left: 100px;
+    padding: 10px;
+    background-color: rgb(78, 57, 80);
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.test{
+  height:500px;
+  width: 500px;
+  margin-top: 30px;
+  margin-left:20px;
+  padding-bottom: 20px;
+  background-color: coral;
+  border-radius: 30px;
+}
+img{
+    height:500px;
+    width: 500px;
+    margin:auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+.test:hover{
+    width: 600px;
+    height: 600px;
+}
+img:hover{
+    width: 600px;
+    height:600px;
+}
